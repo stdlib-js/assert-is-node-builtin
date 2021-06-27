@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-node-builtin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test whether a string matches a Node.js built-in module name.",
   "license": "Apache-2.0",
   "author": {

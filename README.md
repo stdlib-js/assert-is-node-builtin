@@ -24,30 +24,14 @@ limitations under the License.
 
 > Test whether a string matches a Node.js built-in module name.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/assert-is-node-builtin
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var isNodeBuiltin = require( '@stdlib/assert-is-node-builtin' );
+import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@esm/index.mjs';
 ```
 
 #### isNodeBuiltin( value )
@@ -79,8 +63,13 @@ var bool = isNodeBuiltin( 'util' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var isNodeBuiltin = require( '@stdlib/assert-is-node-builtin' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@esm/index.mjs';
 
 var out = isNodeBuiltin( 'fs' );
 // returns true
@@ -93,74 +82,17 @@ out = isNodeBuiltin( 'fs-extra' );
 
 out = isNodeBuiltin( 'moment' );
 // returns false
+
+</script>
+</body>
+</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
-* * *
 
-<section class="cli">
-
-## CLI
-
-<section class="installation">
-
-## Installation
-
-To use the module as a general utility, install the module globally
-
-```bash
-npm install -g @stdlib/assert-is-node-builtin
-```
-
-</section>
-
-<!-- CLI usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```text
-Usage: is-node-builtin [options] [<string>]
-
-Options:
-
-  -h,    --help                Print this message.
-  -V,    --version             Print the package version.
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-### Examples
-
-```bash
-$ is-node-builtin crypto
-true
-```
-
-To use as a [standard stream][standard-streams],
-
-```bash
-$ echo -n 'crypto\ncluster\nfs-extra' | is-node-builtin
-true
-true
-false
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -179,7 +111,7 @@ false
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 

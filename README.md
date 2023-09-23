@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@deno/mod.js';
+import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@v0.1.0-deno/mod.js';
 ```
 
 #### isNodeBuiltin( value )
@@ -75,7 +75,7 @@ var bool = isNodeBuiltin( 'util' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@deno/mod.js';
+import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@v0.1.0-deno/mod.js';
 
 var out = isNodeBuiltin( 'fs' );
 // returns true

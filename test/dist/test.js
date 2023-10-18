@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,43 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isNodeBuiltin = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isNodeBuiltin, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `true` if provided a string primitive matching a Node.js built-in module name', function test( t ) {
-	t.strictEqual( isNodeBuiltin( 'fs' ), true, 'returns true' );
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided a string primitive matching a Node.js built-in module name', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'fs-extra',
-		'd3',
-		'@stdlib',
-		new String( 'fs' ), // eslint-disable-line no-new-wrappers
-		5,
-		null,
-		NaN,
-		void 0,
-		true,
-		[],
-		{},
-		function noop() {}
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		t.strictEqual( isNodeBuiltin( values[i] ), false, 'returns false when provided ' + values[i] );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });

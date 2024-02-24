@@ -188,16 +188,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-node-builtin-cli.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-node-builtin-cli
 
-[test-image]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/assert-is-node-builtin/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/assert-is-node-builtin/actions/workflows/test.yml?query=branch:v0.2.1
 
-[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-node-builtin@v0.2.1/main.svg
-[coverage-url]: https://codecov.io/github/stdlib-js/assert-is-node-builtin@v0.2.1?branch=main
+[coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-node-builtin/main.svg
+[coverage-url]: https://codecov.io/github/stdlib-js/assert-is-node-builtin?branch=main
 
 <!--
 
-[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-is-node-builtin@v0.2.1.svg
-[dependencies-url]: https://david-dm.org/stdlib-js/assert-is-node-builtin@v0.2.1/main
+[dependencies-image]: https://img.shields.io/david/stdlib-js/assert-is-node-builtin.svg
+[dependencies-url]: https://david-dm.org/stdlib-js/assert-is-node-builtin/main
 
 -->
 
@@ -208,22 +208,22 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[cli-section]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1#cli
-[cli-url]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/tree/cli
-[@stdlib/assert-is-node-builtin]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/tree/main
+[cli-section]: https://github.com/stdlib-js/assert-is-node-builtin#cli
+[cli-url]: https://github.com/stdlib-js/assert-is-node-builtin/tree/cli
+[@stdlib/assert-is-node-builtin]: https://github.com/stdlib-js/assert-is-node-builtin/tree/main
 
 [umd]: https://github.com/umdjs/umd
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
-[deno-url]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/tree/deno
-[deno-readme]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/blob/deno/README.md
-[umd-url]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/tree/umd
-[umd-readme]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/blob/umd/README.md
-[esm-url]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/tree/esm
-[esm-readme]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/blob/esm/README.md
-[branches-url]: https://github.com/stdlib-js/assert-is-node-builtin@v0.2.1/blob/main/branches.md
+[deno-url]: https://github.com/stdlib-js/assert-is-node-builtin/tree/deno
+[deno-readme]: https://github.com/stdlib-js/assert-is-node-builtin/blob/deno/README.md
+[umd-url]: https://github.com/stdlib-js/assert-is-node-builtin/tree/umd
+[umd-readme]: https://github.com/stdlib-js/assert-is-node-builtin/blob/umd/README.md
+[esm-url]: https://github.com/stdlib-js/assert-is-node-builtin/tree/esm
+[esm-readme]: https://github.com/stdlib-js/assert-is-node-builtin/blob/esm/README.md
+[branches-url]: https://github.com/stdlib-js/assert-is-node-builtin/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-node-builtin@v0.2.1/main/LICENSE
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-node-builtin/main/LICENSE
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 

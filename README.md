@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@esm/index.mjs';
+import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@v0.2.3-esm/index.mjs';
 ```
 
 #### isNodeBuiltin( value )
@@ -80,7 +80,7 @@ var bool = isNodeBuiltin( 'util' );
 <body>
 <script type="module">
 
-import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@esm/index.mjs';
+import isNodeBuiltin from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node-builtin@v0.2.3-esm/index.mjs';
 
 var out = isNodeBuiltin( 'fs' );
 // returns true

@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-contains": "^0.3.0",
+    "@stdlib/assert-contains": "^0.3.1",
     "@stdlib/assert-is-regexp-string": "^0.2.3",
     "@stdlib/assert-is-string": "^0.2.3",
     "@stdlib/cli-ctor": "^0.2.3",
